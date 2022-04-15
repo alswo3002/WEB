@@ -12,10 +12,31 @@
 
   gtag('config', 'G-VSQH1PTYQZ');
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+<!-- <link rel='stylesheet' href=""
+
+<script src="color.js"></script> -->
 </head>
 
 <body>
+    <input
+            type="button"
+            value="night"
+            onclick="
+             var target = document.querySelector('body');
+        if(this.value === 'night') {
+    
+            target.style.backgroundColor = 'black';
+            target.style.color= 'white';
+            this.value = 'day';
+        } else {
+            target.style.backgroundColor = 'white';
+            target.style.color= 'black';
+            this.value = 'night';
+        }
+        ">
+    
     <h1><a href="index.html">WEB - 김민재</a></h1>
     <div id="grid">
     <ol>
@@ -79,5 +100,23 @@
     })();
     </script>
 </p>
+
+<input
+            type="button"
+            value="night"
+            onclick="
+             var target2 = document.querySelector('body');
+        if(this.value === 'night') {
+    
+            target2.style.backgroundColor = 'black';
+            target2.style.color= 'white';
+            this.value = 'day';
+        } else {
+            target2.style.backgroundColor = 'white';
+            target.style.color= 'black';
+            this.value = 'night';
+        }
+        ">
+
 </body>
 </html>
